@@ -29,7 +29,7 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/master_hp_raj")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001965914571'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/KP_MOVIES_DB')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001840476165').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hppavan271:hppavan271@cluster0.lubxqao.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hgbeeresh64:hgbeeresh64@cluster0.qemhx40.mongodb.net/?retryWrites=true&w=majority")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
@@ -43,8 +43,8 @@ DEEP_API = environ.get("DEEP_API", "3ac9b077-654f-45c6-a1f0-a04a5ef6b69e")
 GOOGLE_API_KEY = environ.get("GOOGLE_API_KEY", "AIzaSyD214hhYJ-xf8rfaWX044_g1VEBQ0ua55Q")
 AI_LOGS = int(environ.get("AI_LOGS", "-1002241178189")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "hppavan271")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "hgbeeresh64")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HPfiles')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002241178189'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002241178189'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002241178189'))
