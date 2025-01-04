@@ -27,9 +27,9 @@ VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1511468725').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/master_hp_raj")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001965914571'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/KP_MOVIES_DB')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+hf0frQmRGu41Yzll')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001840476165').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Prajwalraj:prajwalraj@cluster0.hhn6zsc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
@@ -43,7 +43,7 @@ DEEP_API = environ.get("DEEP_API", "3ac9b077-654f-45c6-a1f0-a04a5ef6b69e")
 GOOGLE_API_KEY = environ.get("GOOGLE_API_KEY", "AIzaSyD214hhYJ-xf8rfaWX044_g1VEBQ0ua55Q")
 AI_LOGS = int(environ.get("AI_LOGS", "-1002241178189")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Prajwalraj")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Hanuman")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HPfiles')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002241178189'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002241178189'))
